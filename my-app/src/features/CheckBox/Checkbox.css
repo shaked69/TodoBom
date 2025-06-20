@@ -1,0 +1,11 @@
+.checkBoxItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkBoxItem > input[type=checkbox] {
+    transform: scale(1.7);
+    margin-right: 2vw;
+}
